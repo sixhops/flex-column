@@ -52,3 +52,31 @@
     flex: 0 1 auto; /* new */
     margin: 28px -8px -8px;
 }
+
+/* ############################################# */
+
+.TestModule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TestModule-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TestModule-content img {
+    order: -1;
+    margin: 0;
+}
+.TestModule-content p {
+    margin: 0;
+}
+.TestModule-content h1 {
+    margin: 0;
+}
+.TestModule-content h3 {
+    margin: 0;
+}
