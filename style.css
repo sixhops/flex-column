@@ -1,3 +1,9 @@
+@font-face {
+    font-family: SharpSans;
+    src: url('SharpSansDispNo2-Bold.woff2') format('woff2'),
+        url('SharpSansDispNo2-Bold.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
     text-align: center;
@@ -29,6 +35,7 @@
     text-transform: uppercase;
     flex: 0 1 auto; /* new */
     margin: 0;
+    font-family: SharpSans;
 }
 
 .HeroModule-content-subheader {
